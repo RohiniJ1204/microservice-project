@@ -2,6 +2,12 @@ pipeline {
 
     agent any
 
+    environment {
+
+        MINIKUBE_HOME = "/home/javva/.minikube"
+
+    }
+
     stages {
 
         stage('Build User Service') {
@@ -28,9 +34,9 @@ pipeline {
         stage('Load Images Into Minikube') {
 
             steps {
-                sh 'minikube image load user-service:v1'
-                sh 'minikube image load product-service:v1'
-                sh 'minikube image load order-service:v1'
+                sh 'MINIKUBE_HOME=/home/javva/.minikube minikube image load user-service:v1'
+                sh 'MINIKUBE_HOME=/home/javva/.minikube image load product-service:v1'
+                sh 'MINIKUBE_HOME=/home/javva/.minikube image load order-service:v1'
             }
         }
 
@@ -48,6 +54,12 @@ pipeline {
 
             steps {
                 sh 'kubectl get pods'
+            }
+        }
+
+        stage('Verify Services') {
+            steps {
+                sh 'kubectl get svc'
             }
         }
 
