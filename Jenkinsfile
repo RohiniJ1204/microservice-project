@@ -35,8 +35,8 @@ pipeline {
 
             steps {
                 sh 'MINIKUBE_HOME=/home/javva/.minikube minikube image load user-service:v1'
-                sh 'MINIKUBE_HOME=/home/javva/.minikube image load product-service:v1'
-                sh 'MINIKUBE_HOME=/home/javva/.minikube image load order-service:v1'
+                sh 'MINIKUBE_HOME=/home/javva/.minikube minikube image load product-service:v1'
+                sh 'MINIKUBE_HOME=/home/javva/.minikube minikube image load order-service:v1'
             }
         }
 
