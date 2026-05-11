@@ -278,31 +278,21 @@ Potential future improvements:
 
 ![Jenkins Pipeline](screenshots/jenkins-pipeline.png)
 
----
-
 ## Kubernetes Pods
 
 ![Kubernetes Pods](screenshots/kubernetes-pods.png)
-
----
 
 ## Kubernetes Services
 
 ![Kubernetes Services](screenshots/kubernetes-services.png)
 
----
-
 ## Ingress Configuration
 
 ![Ingress](screenshots/ingress.png)
 
----
-
 ## Application Testing
 
 ![Application Testing](screenshots/application-testing.png)
-
----
 
 ## Project Structure
 
