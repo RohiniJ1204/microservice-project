@@ -273,19 +273,45 @@ Potential future improvements:
 
 ---
 
-# 📸 Screenshots To Add
+# 📸 Project Screenshots 
+## Jenkins Pipeline
 
-Recommended screenshots for the repository:
+![Jenkins Pipeline](screenshots/jenkins-pipeline.png)
 
-- Jenkins successful pipeline
-- Kubernetes pods
-- Kubernetes services
-- Ingress resources
-- Application curl outputs
-- Project folder structure
+---
+
+## Kubernetes Pods
+
+![Kubernetes Pods](screenshots/kubernetes-pods.png)
+
+---
+
+## Kubernetes Services
+
+![Kubernetes Services](screenshots/kubernetes-services.png)
+
+---
+
+## Ingress Configuration
+
+![Ingress](screenshots/ingress.png)
+
+---
+
+## Application Testing
+
+![Application Testing](screenshots/application-testing.png)
+
+---
+
+## Project Structure
+
+![Project Structure](screenshots/project-structure.png)
 
 ---
 
 # 👨‍💻 Author
 
-Developed as a hands-on DevOps learning project focused on Kubernetes, Jenkins CI/CD, Docker, and microservices deployment.
+**Rohini Javvaji**
+- gitHub:
+  https://github.com/RohiniJ1204
