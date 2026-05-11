@@ -303,6 +303,5 @@ Potential future improvements:
 # 👨‍💻 Author
 
 **Rohini Javvaji**
-Aspiring DevOps Engineer
-gitHub:
-https://github.com/RohiniJ1204
+- Aspiring DevOps Engineer
+- gitHub: https://github.com/RohiniJ1204
